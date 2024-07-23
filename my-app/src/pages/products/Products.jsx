@@ -3,7 +3,7 @@ import './products.css';
 import { CartContext } from '../../context/CartContext';
 
 function Products() {
-  const { addToCart } = useContext(CartContext); // Get addToCart from context
+  const { addToCart } = useContext(CartContext);
   const [products, setProducts] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [priceFilter, setPriceFilter] = useState('');
@@ -58,12 +58,12 @@ function Products() {
           Type Filter:
           <select value={typeFilter} onChange={(e) => setTypeFilter(e.target.value)}>
             <option value="">All</option>
-            <option value="lemonade">Lemonade</option>
-            <option value="energy">Energy</option>
-            <option value="root">Root</option>
-            <option value="cleanses">Cleanses</option>
-            <option value="smoothie">Smoothie</option>
-            <option value="hydration">Hydration</option>
+            <option value="Lemonade">Lemonade</option>
+            <option value="Energy">Energy</option>
+            <option value="Root">Root</option>
+            <option value="Cleanses">Cleanses</option>
+            <option value="Smoothie">Smoothie</option>
+            <option value="Hydration">Hydration</option>
           </select>
         </label>
       </div>

@@ -26,7 +26,7 @@ const Footer = () => {
           <div className="footer-column">
             <h4>Get In Touch</h4>
             <ul>
-              <li><a href="/contact-us">Contact Us</a></li>
+              <li><a href="/contact">Contact Us</a></li>
               <li><a href="mailto:plantjuices@gmail.com">plantjuices@gmail.com</a></li>
               <li><a href="tel:+18006479092">+1 800-647-9092</a></li>
               <li><a href="/location">1600 North Wind Pl, Charlotte NC, 28210</a></li>

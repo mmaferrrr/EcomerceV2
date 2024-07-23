@@ -140,5 +140,11 @@ body {
     .menu-toggle.is-active .bar:nth-child(3) {
       transform: translateY(-7px) rotate(-45deg);
     }
+
+    .cart-icon img {
+      margin-left: 5px;
+      width: 30px;
+      height: auto;
+    }
   }
   

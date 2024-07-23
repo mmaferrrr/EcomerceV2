@@ -12,14 +12,17 @@ const Home = () => {
                 <div className="card-container">
                 <a href="./Products"><img src='images/bestseller-one.png' className="card-image" alt="Juice" /></a>
                     <h3>Cold Citrus</h3>
+                    <h2>$5</h2>
                 </div>
                 <div className="card-container">
                 <a href="./Products"><img src="images/bestseller-two.png" className="card-image" alt="Juice" /></a>
                     <h3>The Miracle</h3>
+                    <h2>$6</h2>
                 </div>
                 <div className="card-container">
                 <a href="./Products"><img src="images/bestseller-three.png" className="card-image" alt="Juice" /></a>
                     <h3>Wellness Cold Brew</h3>
+                    <h2>$7</h2>
                 </div>
             </div>
             <section className="about-section">
