@@ -1,5 +1,6 @@
 import React from 'react';
 import './footer.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -10,10 +11,16 @@ const Footer = () => {
           <div className="footer-column">
             <h4>Navigation</h4>
             <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/products">Products</a></li>
-              <li><a href="/contact">Contact</a></li>
-            </ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/products">Products</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+        </ul>
           </div>
           <div className="footer-column">
             <h4>Policies</h4>
@@ -26,7 +33,9 @@ const Footer = () => {
           <div className="footer-column">
             <h4>Get In Touch</h4>
             <ul>
-              <li><a href="/contact">Contact Us</a></li>
+            <li>
+            <Link to="/contact">Contact</Link>
+          </li>
               <li><a href="mailto:plantjuices@gmail.com">plantjuices@gmail.com</a></li>
               <li><a href="tel:+18006479092">+1 800-647-9092</a></li>
               <li><a href="/location">1600 North Wind Pl, Charlotte NC, 28210</a></li>

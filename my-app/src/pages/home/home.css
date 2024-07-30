@@ -32,6 +32,10 @@
      margin-top: 30px;
      margin-bottom: 100px;
    }
+
+   .card-container h2 {
+    font-size: 20px;
+   }
    
    .card-container img {
      max-width: 100%;
@@ -108,9 +112,12 @@
      margin-bottom: 100px;
    }
 
+ 
+   
    @media screen and (min-width: 250px) and (max-width: 768px)  {
     .bestseller {
-      font-size: 22px;
+      font-size: 20px;
+      margin-top: 20px;
     }
 
     .card-container-section {
@@ -119,6 +126,11 @@
 
     .card-container {
       font-size: 15px;
+    }
+
+    .card-container img {
+      height: 250px;
+      width: 250px;
     }
 
     .about-section h3 {
