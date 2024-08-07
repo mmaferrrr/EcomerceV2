@@ -1,5 +1,4 @@
-# EcomerceV2
-
+E-commerce V2
 # Description
 Plants is an e-commerce platform dedicated to selling high-quality cold-pressed juices. Developed using React, it offers a seamless online shopping experience tailored for health-conscious consumers.
 
