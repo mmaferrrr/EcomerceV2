@@ -1,5 +1,5 @@
-# Description
-Plants is an e-commerce platform dedicated to selling high-quality cold-pressed juices. Developed using React, it offers a seamless online shopping experience tailored for health-conscious consumers.
+# Plnts
+Plnts is an e-commerce platform dedicated to selling high-quality cold-pressed juices. Developed using React, it offers a seamless online shopping experience tailored for health-conscious consumers.
 
 # Installation
 1. Clone the repository
